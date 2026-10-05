@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Таблетница</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div>
+        <h1>Таблетница</h1>
+        <time id="today"></time>
+      </div>
+      <button id="edit" class="edit-button" type="button" aria-pressed="false">Редактировать</button>
+    </header>
+    <p id="storage-warning" class="warning" role="status" hidden>Не удалось сохранить данные в браузере. Изменения доступны только до закрытия или перезагрузки страницы.</p>
+    <section id="meals" class="meals" aria-label="Лекарства по приёмам пищи"></section>
+  </main>
+</body>
+</html>
